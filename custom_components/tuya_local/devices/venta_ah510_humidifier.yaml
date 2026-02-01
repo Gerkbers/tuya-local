@@ -17,6 +17,8 @@ entities:
         range:
           min: 30
           max: 70
+        mapping:
+          - step: 5
       - id: 14
         type: integer
         name: current_humidity
