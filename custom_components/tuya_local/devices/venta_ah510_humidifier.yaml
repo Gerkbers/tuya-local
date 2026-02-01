@@ -10,6 +10,7 @@ entities:
     dps:
       - id: 1
         type: boolean
+        optional: true
         name: switch
       - id: 13
         type: integer
