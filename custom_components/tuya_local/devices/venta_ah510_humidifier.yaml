@@ -10,17 +10,14 @@ entities:
     dps:
       - id: 1
         type: boolean
-        optional: true
         name: switch
       - id: 13
         type: integer
-        optional: true
         name: humidity
         range:
           min: 30
           max: 70
         mapping:
-          - step: 5
       - id: 14
         type: integer
         name: current_humidity
@@ -33,8 +30,6 @@ entities:
             value: eco
           - dps_val: heating_evaporation
             value: comfort
-          - dps_val: ultrasonic_evaporation
-            value: boost
   - entity: fan
     dps:
       - id: 1
