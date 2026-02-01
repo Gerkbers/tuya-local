@@ -12,15 +12,30 @@ entities:
         type: boolean
         optional: true
         name: switch
-      - id: 13
-        type: integer
-        optional: true
+      - id: 3
+        type: string
         name: humidity
-        range:
-          min: 30
-          max: 70
         mapping:
-          - step: 5
+          - dps_val: "cancel"
+            value: 0
+          - dps_val: "40"
+            value: 40
+          - dps_val: "45"
+            value: 45
+          - dps_val: "50"
+            value: 50
+          - dps_val: "55"
+            value: 55
+          - dps_val: "60"
+            value: 60
+          - dps_val: "65"
+            value: 65
+          - dps_val: "70"
+            value: 70
+          - dps_val: "75"
+            value: 75
+          - dps_val: "80"
+            value: 80
       - id: 14
         type: integer
         name: current_humidity
