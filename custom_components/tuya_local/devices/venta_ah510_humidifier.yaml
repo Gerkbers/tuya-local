@@ -14,6 +14,7 @@ entities:
         name: switch
       - id: 13
         type: integer
+        optional: true
         name: humidity
         range:
           min: 30
@@ -32,6 +33,8 @@ entities:
             value: eco
           - dps_val: heating_evaporation
             value: comfort
+          - dps_val: ultrasonic_evaporation
+            value: boost
   - entity: fan
     dps:
       - id: 1
